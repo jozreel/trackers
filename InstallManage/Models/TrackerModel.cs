@@ -20,6 +20,8 @@ namespace InstallManage.Models
         public string comment { get; set; }
         public int TrackerModelID { get; set; }
         public int CustomerModelID { get; set; }
+        public string model { get; set; }
         public virtual CustomerModel Customer { get; set; }
+        public virtual ICollection<ServiceModel> Service { get; set; }
     }
 }

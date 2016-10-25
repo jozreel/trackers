@@ -16,7 +16,8 @@ namespace InstallManage.DAL
 
         }
         public DbSet<Models.TrackerModel> Tracker { get; set; }
-
+        public DbSet<Models.ServiceModel> Service { get; set; }
+        public DbSet<Models.PartsModel> Parts { get; set; }
         public System.Data.Entity.DbSet<InstallManage.Models.CustomerModel> CustomerModels { get; set; }
     }
 }

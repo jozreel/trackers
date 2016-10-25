@@ -37,9 +37,9 @@ namespace InstallManage.Controllers
             if (customerModel == null)
             {
                 return NotFound();
-            } 
+            }  
               
-            return Ok(customerModel);   
+            return Ok(customerModel);    
         }
           
         public IQueryable<CustomerModel> GetByName(string name)

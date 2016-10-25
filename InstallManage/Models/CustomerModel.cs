@@ -19,6 +19,7 @@ namespace InstallManage.Models
         public string CustomerAddressCountry { get; set;}
         public int CustomerModelID { get; set; }
         public string CustomerKind { get; set; }
+        public string ContactName { get; set; }
         public virtual ICollection<TrackerModel> Trackers { get; set;}
     }
 }
